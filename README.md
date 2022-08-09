@@ -5,10 +5,10 @@
 - The high level structure of my approach was: data cleaning, tokenization, load pre-trained embedding, train the network.
 - I have achieved a fairly similar balanced accuracy with and without the pre-trained embeddings. Data preparation was important and the results of the regularisations were noticeable.
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
-<figure>
+<p>
 <img src="/images/pca.png" alt width="400">
-<figcaption align = "center"><b>Visualization of pre-trained GloVe word embedding with PCA</b></figcaption>
-</figure>
+<em> Visualization of pre-trained GloVe word embedding with PCA </em>
+</p>
 
 | ![](/images/learning%20curve.png) |
 |:--:|
