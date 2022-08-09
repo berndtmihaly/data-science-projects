@@ -10,7 +10,7 @@
   <img
   src="/images/pca.png"
   alt="PCA">
-  <figcaption>Visualization of pre-trained GloVe word embedding with PCA</figcaption>
+  <figcaption><i>Visualization of pre-trained GloVe word embedding with PCA</i></figcaption>
 </figure>
 
 -----------------------------------
