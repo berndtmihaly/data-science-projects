@@ -8,8 +8,7 @@
 
 <figure>
   <img
-  src="/images/pca.png"
-       height="50%"
+  src="/images/pca.png" height="10%"
   alt="PCA">
   <figcaption><i>Visualization of pre-trained GloVe word embedding with PCA</i></figcaption>
 </figure>
