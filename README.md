@@ -7,8 +7,8 @@
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
 <p>
-    <center><img src="/images/pca.png" alt></center>
-    <center><em>Visualization of pre-trained GloVe word embedding with PCA</em></center>
+    <img src="/images/pca.png" alt width="200"/>
+    <em>Visualization of pre-trained GloVe word embedding with PCA</em>
 </p>
 
 | ![](/images/learning%20curve.png) {width=250}| 
