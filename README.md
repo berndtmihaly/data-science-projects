@@ -10,9 +10,9 @@
 <em> Visualization of pre-trained GloVe word embedding with PCA </em>
 </p>
 
-| ![](/images/learning%20curve.png) |
-|:--:|
-| <b>Loss function and balanced accuracy with early stopping</b>|
+| ![](/images/learning%20curve.png) | 
+|:--:| 
+| *Loss function and balanced accuracy with early stopping* |
 
 ## [Imbalanced classification SVM](https://github.com/berndtmihaly/data-science-projects/blob/main/Berndt_Mih%C3%A1ly_SVM_Classification.ipynb)
 ![](https://github.com/berndtmihaly/data-science-projects/blob/main/images/svm%20cm.png)
