@@ -11,7 +11,7 @@
     <center><em>Visualization of pre-trained GloVe word embedding with PCA</em></center>
 </p>
 
-| ![](/images/learning%20curve.png) | 
+| ![](/images/learning%20curve.png) {width=250}| 
 |:--:| 
 | *Loss function and balanced accuracy with early stopping* |
 
