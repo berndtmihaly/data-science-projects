@@ -3,7 +3,7 @@
 - The dataset contained tweets about COVID labelled by sentiments. My objective was to build an NLP pipeline and train a neural network to classify the tweets both at a fairly deep level of abstraction.
 - My aim was to experiment with pre-trained embeddings, continue train them with transfer learning and try different regularization techniques.
 - The high level structure of my approach was: data cleaning, tokenization, load pre-trained embedding, train the network.
-- I have achieved a fairly similar balanced accuracy with and without the pre-trained embeddings. Data preparation was important, the usage of packed padded sequences significantly reduced training time and the results of the regularizations were noticeable.
+- I have achieved a fairly similar balanced accuracy with and without the pre-trained embeddings. Data preparation was important, the usage of packed padded sequences significantly reduced training time and the results of regularizations were noticeable.
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
 <p align="center">
