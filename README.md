@@ -6,23 +6,22 @@
 - I have achieved a fairly similar balanced accuracy with and without the pre-trained embeddings. Data preparation was important and the results of the regularisations were noticeable.
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
+<figure class="centered-figure {{ include.size_class }} {{ include.position_class }}">
+  {% if include.title %}
+  {% assign title = include.title %}
+  {% else %}
+  {% assign title = include.caption %}
+  {% endif %}
+  <img src="{{ /images/pca.png }}" alt="{{ PCA }}" />
+  {% if include.caption %}
+    <figcaption class="caption-text">{{ Visualization of pre-trained GloVe word embedding with PCA }}</figcaption> 
+  {% endif %}
+</figure>
+
 <figure>
   <img src="/images/pca.png" title="Visualization of pre-trained GloVe word embedding with PCA" alt="PCA" style="width: 600px;"/>
   <figcaption><i>Visualization of pre-trained GloVe word embedding with PCA</i></figcaption>
 </figure>
-
-figure {
-    display: inline-block;
-    border: 1px dotted gray;
-    margin: 20px; /* adjust as needed */
-}
-figure img {
-    vertical-align: top;
-}
-figure figcaption {
-    border: 1px dotted blue;
-    text-align: center;
-}
 
 | ![](/images/learning%20curve.png | 
 |:--:| 
