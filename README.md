@@ -27,7 +27,7 @@
 - I used the following embedded method for feature selection. I trained a Random Forest and then used permutation importance to select features. I then performed the classification using SVM, running experiments with all possible Kernels. For hyperparameter optimization I used a Bayesian approach with Optuna.
 - Proposal for further analysis: the dataset is augmented with the chest X-ray images of the patients. A possible approach could be to train a neural network to classify the images, then extract the features and add them to the tabular observations to perform the classification using SVM.
 
-Solarized dark             |  Solarized Ocean
+Confusion matrix on the validation set             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![](/images/svm%20cm.png)  |  ![](/images/svm%20class%20report.png)
 
