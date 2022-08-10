@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="/images/pca.png" title="Visualization of pre-trained GloVe word embedding with PCA" alt="PCA" align="center" style="width: 500px;">
-    Visualization of pre-trained GloVe word embedding with PCA
+  <figcaption>Visualization of pre-trained GloVe word embedding with PCA</figcaption>
 </p>
 
 | ![](/images/learning%20curve.png | 
