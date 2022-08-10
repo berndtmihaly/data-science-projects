@@ -12,7 +12,7 @@
 <p align = "center">
 First two PCs of GloVe word embeddings
 </p>
-
+<br>
 
 <p align="center">
   <img src="/images/learning%20curve.png" alt="Learning curves" align="center">
