@@ -10,7 +10,7 @@
     <tr>
     <td style='text-align:center;'>
         <img src="/images/pca.png"
-             style='zoom:65%;'> <b> Visualization of pre-trained GloVe word embedding with PCA </b><img>
+             style='zoom:40%;'> <b> Visualization of pre-trained GloVe word embedding with PCA </b><img>
     </td>
     </tr>
 </table>
