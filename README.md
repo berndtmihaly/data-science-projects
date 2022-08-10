@@ -14,12 +14,11 @@
 </figure>
 
 -----------------------------------
-<p>
-    <img src="/images/pca.png" alt width="500"/>
-    <em>Visualization of pre-trained GloVe word embedding with PCA</em>
-</p>
+| ![](/images/pca.png) | 
+|:--:| 
+| *Visualization of pre-trained GloVe word embedding with PCA* |
 
-| ![](/images/learning%20curve.png) {width=250}| 
+| ![](/images/learning%20curve.png | width=100) | 
 |:--:| 
 | *Loss function and balanced accuracy with early stopping* |
 
