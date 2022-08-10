@@ -6,6 +6,15 @@
 - I have achieved a fairly similar balanced accuracy with and without the pre-trained embeddings. Data preparation was important and the results of the regularisations were noticeable.
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
+<table>
+    <tr>
+    <td style='text-align:center;'>
+        <img src="/images/pca.png"
+             style='zoom:65%;'> <b> Visualization of pre-trained GloVe word embedding with PCA </b><img>
+    </td>
+    </tr>
+</table>
+
 <p align="center">
   <img src="/images/pca.png" title="Visualization of pre-trained GloVe word embedding with PCA" alt="PCA" align="center" style="width: 500px;"/>
   <figcaption>Visualization of pre-trained GloVe word embedding with PCA</figcaption>
