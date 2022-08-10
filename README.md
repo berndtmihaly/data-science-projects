@@ -9,7 +9,14 @@
 <p align="center">
   <img src="/images/pca.png" alt="PCA" align="center" style="width: 500px;">
 </p>
+<p align = "center">
+First two PCs of GloVe word embeddings
+</p>
 
+
+<p align="center">
+  <img src="/images/learning%20curve.png" alt="Learning curves" align="center">
+</p>
 <p align = "center">
 First two PCs of GloVe word embeddings
 </p>
