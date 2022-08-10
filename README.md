@@ -11,6 +11,21 @@
   <figcaption align="center">Visualization of pre-trained GloVe word embedding with PCA</figcaption>
 </p>
 
+figure {
+     position: relative;
+}
+figure img {
+    display: block;
+}
+figcaption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 | ![](/images/learning%20curve.png | 
 |:--:| 
 | *Loss function and balanced accuracy with early stopping* |
