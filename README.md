@@ -1,5 +1,5 @@
 # **Machine Learning Projects**
-## **Sentiment analysis (NLP)**
+## [Sentiment analysis (NLP)](https://github.com/berndtmihaly/data-science-projects/blob/main/Covid%20sentiment%20analysis.ipynb)
 - The dataset contained tweets about COVID labelled by sentiments. My objective was to build an NLP pipeline and train a neural network to classify the tweets both at a fairly deep level of abstraction.
 - My aim was to experiment with pre-trained embeddings, continue train them with transfer learning and try different regularization techniques.
 - The high level structure of my approach was: data cleaning, tokenization, load pre-trained embedding, train the network.
