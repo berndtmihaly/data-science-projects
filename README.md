@@ -11,10 +11,18 @@
   <figcaption><i>Visualization of pre-trained GloVe word embedding with PCA</i></figcaption>
 </figure>
 
------------------------------------
-| ![](/images/pca.png) | 
-|:--:| 
-| *Visualization of pre-trained GloVe word embedding with PCA* |
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
 
 | ![](/images/learning%20curve.png | 
 |:--:| 
