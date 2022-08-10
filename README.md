@@ -7,10 +7,10 @@
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
 <p align="center">
-  <img src="/images/pca.png" alt="PCA" align="center" style="width: 500px;">
+  <img src="/images/pca.png" alt="PCA" align="center" style="width: 530px;">
 </p>
 <p align = "center">
-First two PCs of GloVe word embeddings
+  <i>First two PCs of GloVe word embeddings</i>
 </p>
 <br>
 
@@ -18,7 +18,7 @@ First two PCs of GloVe word embeddings
   <img src="/images/learning%20curve.png" alt="Learning curves" align="center">
 </p>
 <p align = "center">
-First two PCs of GloVe word embeddings
+<i>Loss function and balanced accuracy with early stopping</i>
 </p>
 
 | ![](/images/learning%20curve.png | 
