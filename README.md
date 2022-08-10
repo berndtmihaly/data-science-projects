@@ -11,7 +11,7 @@
 </p>
 
 <p align = "center">
-Fig.1 - 4K Mountains Wallpaper
+Visualization of pre-trained GloVe word embedding with PCA
 </p>
 
 | ![](/images/learning%20curve.png | 
