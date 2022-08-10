@@ -7,7 +7,7 @@
 - Further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
 <p align="center">
-  <img src="/images/pca.png" alt="PCA" align="center" style="width: 530px;">
+  <img src="/images/pca.png" alt="PCA" align="center" style="width: 550px;">
 </p>
 <p align = "center">
   <i>First two PCs of GloVe word embeddings</i>
@@ -15,15 +15,11 @@
 <br>
 
 <p align="center">
-  <img src="/images/learning%20curve.png" alt="Learning curves" align="center">
+  <img src="/images/early%20stopping.png" alt="Learning curves" align="center">
 </p>
 <p align = "center">
 <i>Loss function and balanced accuracy with early stopping</i>
 </p>
-
-| ![](/images/learning%20curve.png | 
-|:--:| 
-| *Loss function and balanced accuracy with early stopping* |
 
 ## [Imbalanced classification SVM](https://github.com/berndtmihaly/data-science-projects/blob/main/Berndt_Mih%C3%A1ly_SVM_Classification.ipynb)
 ![](https://github.com/berndtmihaly/data-science-projects/blob/main/images/svm%20cm.png)
