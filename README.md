@@ -9,7 +9,7 @@
 <center>
 <p align="center">
   <img src="/images/pca.png" title="Visualization of pre-trained GloVe word embedding with PCA" alt="PCA" align="center" style="width: 500px;">
-  <figcaption>"Visualization of pre-trained GloVe word embedding with PCA" text-align: center;</figcaption>
+  <figcaption text-align: center;>Visualization of pre-trained GloVe word embedding with PCA</figcaption>
 </p>
 </center>
 
