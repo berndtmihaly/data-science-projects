@@ -7,7 +7,7 @@
 - Proposal for further analysis: train own word embeddings on a corpus with more information about COVID, classification with BERT, more efforts to clean the data.
 
 <p align="center">
-  <img src="/images/pca.png" alt="PCA" align="center" style="width: 550px;">
+  <img src="./images/pca.png" alt="PCA" align="center" style="width: 550px;">
 </p>
 <p align = "center">
   <i>First two principal components of GloVe word embeddings before training</i>
@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img src="/images/early%20stopping.png" alt="Learning curves" align="center">
+  <img src="./images/early%20stopping.png" alt="Learning curves" align="center">
 </p>
 <p align = "center">
 <i>Loss function and balanced accuracy with early stopping</i>
@@ -29,7 +29,7 @@
 
 Confusion matrix on the validation set             |  Classification report on the validation set
 :-------------------------:|:-------------------------:
-![](/images/svm%20cm.png)  |  ![](/images/svm%20class%20report.png)
+![](./images/svm%20cm.png)  |  ![](./images/svm%20class%20report.png)
 
 
 ## [Imbalanced classification of insurance data](https://github.com/berndtmihaly/data-science-projects/blob/main/Insurance%20product%20classification.ipynb)
@@ -42,7 +42,7 @@ Confusion matrix on the validation set             |  Classification report on t
 
 Threshold plot for imbalanced classification             |  ROC curves
 :-------------------------:|:-------------------------:
-![](/images/threshold%20plot.png)  |  ![](/images/roc%20curve.png)
+![](./images/threshold%20plot.png)  |  ![](./images/roc%20curve.png)
 
 
 ## [House price regression](https://github.com/berndtmihaly/data-science-projects/blob/main/House%20Price%20Regression.ipynb)
@@ -53,7 +53,7 @@ Threshold plot for imbalanced classification             |  ROC curves
 
 Residuals vs Predicted             |  Prediction error
 :-------------------------:|:-------------------------:
-![](/images/lasso%20residuals.png)  |  ![](/images/prediction%20error%20linearity.png)
+![](./images/lasso%20residuals.png)  |  ![](./images/prediction%20error%20linearity.png)
 
 ## [Optimize Boosting algorithms for image classification](https://colab.research.google.com/drive/1b0i2a5Hxji9hWAwDTzxXV2VhNamEiRYs?usp=sharing)
 - The dataset consists of handwritten Kannada digits. The problem was introduced in the Data Mining Models and Algorithms course, and the objective was to classify the images without any pre-processing using only boosting algorithms. I finished in 2nd place.
@@ -61,7 +61,7 @@ Residuals vs Predicted             |  Prediction error
 - Proposal for further analysis: it would be interesting to compare the results with convolutional neural networks with random weight initialization and transfer learning approaches.
 
 <p align="center">
-  <img src="/images/xgboost.JPG" alt="Contour plots" align="center">
+  <img src="./images/xgboost.JPG" alt="Contour plots" align="center">
 </p>
 <p align = "center">
 <i>Contour plot of some of the hyperparameters</i>
@@ -69,7 +69,7 @@ Residuals vs Predicted             |  Prediction error
 <br>
 
 <p align="center">
-  <img src="/images/xgboost2.JPG" alt="Hyperparameter importances" align="center">
+  <img src="./images/xgboost2.JPG" alt="Hyperparameter importances" align="center">
 </p>
 <p align = "center">
 <i>Hyperparameter importances</i>
