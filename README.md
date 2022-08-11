@@ -10,7 +10,7 @@
   <img src="/images/pca.png" alt="PCA" align="center" style="width: 550px;">
 </p>
 <p align = "center">
-  <i>First two PCs of GloVe word embeddings</i>
+  <i>First two principal components of GloVe word embeddings before training</i>
 </p>
 <br>
 
