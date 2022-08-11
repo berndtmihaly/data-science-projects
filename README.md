@@ -56,6 +56,10 @@ Residuals vs Predicted             |  Prediction error
 ![](/images/lasso%20residuals.png)  |  ![](/images/prediction%20error%20linearity.png)
 
 ## [Optimize Boosting algorithms for image classification](https://colab.research.google.com/drive/1b0i2a5Hxji9hWAwDTzxXV2VhNamEiRYs?usp=sharing)
-- The dataset consits of 79 variables about houses. 
-![](https://github.com/berndtmihaly/data-science-projects/blob/main/images/xgboost.JPG)
-![](/images/xgboost2.JPG)
+- The dataset consists of handwritten Kannada digits. The problem was introduced in the Data Mining Models and Algorithms course, and the objective was to classify the images without any pre-processing using only boosting algorithms. I finished in 2nd place.
+- I used a Bayesian approach with Optuna for tuning the hyperparameters. I have experimented with a few different types of 'strategies', which I briefly described at the beginning of this notebook.
+- Proposal for further analysis: it would be interesting to compare the results with convolutional neural networks with random weight initialization and transfer learning approaches.
+
+Contur plot of some of the hyperparameters             |  Hyperparameter importances
+:-------------------------:|:-------------------------:
+![](/images/xgboost.JPG)  |  ![](/images/xgboost2.JPG)
