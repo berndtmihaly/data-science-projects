@@ -76,6 +76,22 @@ Residuals vs Predicted             |  Prediction error
 </p>
 <br>
 
+
+## [Image classification (Computer Vision)](https://github.com/berndtmihaly/data-science-projects/blob/main/Transfer_learning_CIFAR10_dataset.ipynb)
+- The objective was to make experiments on classifying images on the CIFAR-10 dataset.
+- Experimented with many different augmentation techniques.
+- Transfer learning was carried out using a two-stage learning approach. I used VGG16 as the backbone model, freezing all parameters in the feature learning part and first trained only the classification head. I also experimented with different types of FCNN architectures in the classification head. I then unfroze the parameters and continued training with a smaller learning rate. I also tried out Adam and SGD with Momentum.
+- Proposal for further analysis: experiment with different types of architectures as a backbone model (e.g. ResNets).
+https://github.com/berndtmihaly/data-science-projects/blob/main/images/image%20classification%20loss%20and%20acc.png
+
+<p align="center">
+  <img src="./images/image%20classification%20loss%20and%20acc.png" alt="Acc and loss" align="center">
+</p>
+<p align = "center">
+<i>Accuracy and loss function</i>
+</p>
+<br>
+
 ## [Bankruptcy prediction - imbalanced classification](https://github.com/berndtmihaly/data-science-projects/blob/main/Bankrupty%20prediction.ipynb)
 - The dataset consists of 95 variables about companies. The objective was to classify the companies as to whether they were financially stable or not. This notebook was submitted in the course of "Mathematical Modelling - Project work" in the first semester of "Mathematical Expert in Data Analysis and Machine Learning". I got the highest mark for my work.
 - The high level structure of my approach was: exploratory data analysis, correlation analysis, scaling, feature selection and apply ML methods. I used a Bayesian approach with Optuna for tuning the hyperparameters.
