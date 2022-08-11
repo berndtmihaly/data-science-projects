@@ -82,7 +82,6 @@ Residuals vs Predicted             |  Prediction error
 - Experimented with many different augmentation techniques.
 - Transfer learning was carried out using a two-stage learning approach. I used VGG16 as the backbone model, freezing all parameters in the feature learning part and first trained only the classification head. I also experimented with different types of FCNN architectures in the classification head. I then unfroze the parameters and continued training with a smaller learning rate. I also tried out Adam and SGD with Momentum.
 - Proposal for further analysis: experiment with different types of architectures as a backbone model (e.g. ResNets).
-https://github.com/berndtmihaly/data-science-projects/blob/main/images/image%20classification%20loss%20and%20acc.png
 
 <p align="center">
   <img src="./images/image%20classification%20loss%20and%20acc.png" alt="Acc and loss" align="center">
