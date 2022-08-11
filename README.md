@@ -60,6 +60,17 @@ Residuals vs Predicted             |  Prediction error
 - I used a Bayesian approach with Optuna for tuning the hyperparameters. I have experimented with a few different types of 'strategies', which I briefly described at the beginning of this notebook.
 - Proposal for further analysis: it would be interesting to compare the results with convolutional neural networks with random weight initialization and transfer learning approaches.
 
-Contur plot of some of the hyperparameters             |  Hyperparameter importances
-:-------------------------:|:-------------------------:
-![](/images/xgboost.JPG)  |  ![](/images/xgboost2.JPG)
+<p align="center">
+  <img src="/images/xgboost.JPG" alt="Contour plots" align="center">
+</p>
+<p align = "center">
+<i>Contour plot of some of the hyperparameters</i>
+</p>
+<br>
+
+<p align="center">
+  <img src="/images/xgboost2.JPG" alt="Hyperparameter importances" align="center">
+</p>
+<p align = "center">
+<i>Hyperparameter importances</i>
+</p>
