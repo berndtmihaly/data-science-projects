@@ -21,12 +21,20 @@
 <i>Loss function and balanced accuracy with early stopping</i>
 </p>
 
-## [Classification of medical data with SVM](https://github.com/berndtmihaly/data-science-projects/blob/main/Berndt_Mih%C3%A1ly_SVM_Classification.ipynb)
+## [Classification of medical data with SVM](https://github.com/berndtmihaly/data-science-projects/blob/main/Medical%20data%20SVM%20classification.ipynb)
 - The dataset contained tabular medical data with numerous missing data. The problem was introduced in the Data Mining Models and Algorithms course, and the objective was to classify the cases using SVM. I finished in second place.
 - The high level structure of my approach was: exploratory data analysis, outlier detection, feature engineering (encoding, transformations, scaling, feature selection), missing data imputation with KNN and apply SVM.
 - I used the following embedded method for feature selection. I trained a Random Forest and then used permutation importance to select features. I then performed the classification using SVM, running experiments with all possible Kernels. For hyperparameter optimization I used a Bayesian approach with Optuna.
 - Proposal for further analysis: the dataset is augmented with the chest X-ray images of the patients. A possible approach could be to train a neural network to classify the images, then extract the features and add them to the tabular observations to perform the classification using SVM.
 
+Confusion matrix on the validation set             |  Classification report on the validation set
+:-------------------------:|:-------------------------:
+![](/images/svm%20cm.png)  |  ![](/images/svm%20class%20report.png)
+
+
+Confusion matrix on the validation set             |  Classification report on the validation set
+:-------------------------:|:-------------------------:
+![](/images/svm%20cm.png)  |  ![](/images/svm%20class%20report.png)
 Confusion matrix on the validation set             |  Classification report on the validation set
 :-------------------------:|:-------------------------:
 ![](/images/svm%20cm.png)  |  ![](/images/svm%20class%20report.png)
