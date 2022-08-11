@@ -86,6 +86,7 @@ ROC curves (train)             |  ROC curves (test)
 :-------------------------:|:-------------------------:
 ![](./images/roc%20curve%20bankruptcy%20train.png)  |  ![](./images/roc%20bankruptcy.png)
 
+<br>
 <p align="center">
   <img src="./images/feature%20importance.png" alt="Feature importance" align="center">
 </p>
