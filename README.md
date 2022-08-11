@@ -74,3 +74,15 @@ Residuals vs Predicted             |  Prediction error
 <p align = "center">
 <i>Hyperparameter importances</i>
 </p>
+<br>
+
+## [Bankruptcy prediction - imbalanced classification](https://github.com/berndtmihaly/data-science-projects/blob/main/Bankrupty%20prediction.ipynb)
+- The dataset consists of 95 variables about companies. The objective was to classify the companies as to whether they were financially stable or not. This notebook was submitted in the course of "Mathematical Modelling - Project work" in the first semester of "Mathematical Expert in Data Analysis and Machine Learning". I got the highest mark for my work.
+- The high level structure of my approach was: exploratory data analysis, correlation analysis, scaling, feature selection and apply ML methods. I used a Bayesian approach with Optuna for tuning the hyperparameters.
+- The main challange was that the dataset was inbalanced in the sense of the response variable, I used SMOTE and probability calibration to solve these problems.
+- Proposal for further analysis: analyze and possibly remove the outliers. Analyze the prediction errors to see if there were extreme values in the important variables.
+https://github.com/berndtmihaly/data-science-projects/blob/main/images/roc%20curve%20bankruptcy%20train.png
+
+ROC curves (train)             |  ROC curves (test)
+:-------------------------:|:-------------------------:
+![](./images/roc%20curve%20bankruptcy%20train.pn)  |  ![](./images/roc%20bankruptcy.png)
