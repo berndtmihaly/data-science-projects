@@ -36,14 +36,26 @@ Confusion matrix on the validation set             |  Classification report on t
 - The dataset contained tabular data on costumers of an insurance company. The dataset consists of 86 varibales including product usage and socio demographic data. The problem was introduced in the Data Mining Models and Algorithms course, and the objective was to classify who would be interested in buying an insurance policy using Random Forest. I finished in 1st place.
 - The high level structure of my approach was: exploratory data analysis, outlier detection, feature engineering (encoding, transformations, scaling, correlation analysis, feature selection) and apply RF.
 - The main challange was that the dataset was inbalanced in the sense of the response variable. In addition some features had rare values and random forest can be sensitive to the latter.
-- I have done quite a lot of experiments with rare value transformation and different sampling techniques, including random over- and undersampling and variations of SMOTE. Interestingly I obtained the best result with the random oversampling approach.
+- I have done quite a lot of experiments with rare value transformation and different sampling techniques, including random over- and undersampling and variations of SMOTE. For the hyperparameter optimization I used pipeline objects, which made the experiments more flexible and faster. Interestingly I obtained the best result with the random oversampling approach.
 - Since this was an imbalanced classification task, I also had to perform probability calibration, which improved my results on both the train and the validation sets.
 - Proposal for further analysis: make some experiments with boosting algorithms and dimension reduction techniques, possibly PCA.
 
-Defining threshold for imbalanced classification             |  ROC curves
+Threshold plot for imbalanced classification             |  ROC curves
 :-------------------------:|:-------------------------:
 ![](/images/threshold%20plot.png)  |  ![](/images/roc%20curve.png)
 
+
+## [House price regression](https://github.com/berndtmihaly/data-science-projects/blob/main/House%20Price%20Regression.ipynb)
+- The dataset consists of 79 variables about houses. The problem was introduced in the Data Mining Models and Algorithms course, and the objective was to predict the logarithm of prices. I finished in 2nd place.
+- The high level structure of my approach was: exploratory data analysis, missing data imputation, feature engineering (encoding, transformations, scaling), outlier detection and apply ML methods.
+- The main challange was missing data imputation and feature engineering. The documentation contained important information, which in some cases gave hints on how to impute missing values. In feature engineering the creation of new variables turned out to be important.
+- Proposal for further analysis: do some experiments with KNN imputation for some categorical features and regression for continuous cases, of course if it makes sense. Analyze the residuals deeper. One can observe that the residuals of the train set have more extremes in the negative values and the distribution of the validation set is more heavy-tailed in the positive values. Moreover the algorithm overestimates lower values and underestimates greater values in some cases, but there is no noticable trend in the residuals.
+
+Residuals vs Predicted             |  Prediction error
+:-------------------------:|:-------------------------:
+![](/images/lasso%20residuals.png)  |  ![](/images/prediction%20error%20linearity.png)
+
 ## [Optimize Boosting algorithms for image classification](https://colab.research.google.com/drive/1b0i2a5Hxji9hWAwDTzxXV2VhNamEiRYs?usp=sharing)
+- The dataset consits of 79 variables about houses. 
 ![](https://github.com/berndtmihaly/data-science-projects/blob/main/images/xgboost.JPG)
 ![](/images/xgboost2.JPG)
